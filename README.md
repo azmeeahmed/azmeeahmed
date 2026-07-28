@@ -1,87 +1,61 @@
-<div align="center">
-
-\`\`\`
-┌──────────────────────────────────────────────────┐
-│                                                    │
-│   // the one they call when the site's on fire   │
-│                                                    │
-└──────────────────────────────────────────────────┘
-\`\`\`
-
-</div>
-
 <br>
 
 <div align="center">
-<svg width="700" height="200" viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="700" height="200" rx="10" fill="#0a0a0a" stroke="#262626" stroke-width="1.5"/>
-  <rect width="700" height="34" rx="10" fill="#111111"/>
-  <rect y="24" width="700" height="10" fill="#111111"/>
-  <circle cx="24" cy="17" r="5" fill="#3a3a3a"/>
-  <circle cx="42" cy="17" r="5" fill="#3a3a3a"/>
-  <circle cx="60" cy="17" r="5" fill="#3a3a3a"/>
-  <text x="350" y="21" font-family="monospace" font-size="12" fill="#666666" text-anchor="middle">intro.sh</text>
-  <g font-family="monospace" font-size="15">
-    <g clip-path="url(#a1)"><text x="24" y="70" fill="#888888">$ whoami</text></g>
-    <clipPath id="a1"><rect x="0" y="52" height="22" width="0"><animate attributeName="width" from="0" to="84" dur="0.3s" begin="0.3s" fill="freeze"/></rect></clipPath>
+<svg width="700" height="170" viewBox="0 0 700 170" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="170" fill="#0a0a0a"/>
+  <text x="12" y="70" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#f5f5f5" opacity="0">
+    code that ships.
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.2s" fill="freeze"/>
+  </text>
 
-    <g clip-path="url(#a2)"><text x="24" y="100" fill="#ffffff">&gt; the fixer — WordPress fires, SEO gaps, whatever's broken</text></g>
-    <clipPath id="a2"><rect x="0" y="82" height="22" width="0"><animate attributeName="width" from="0" to="553" dur="0.8s" begin="0.8s" fill="freeze"/></rect></clipPath>
+  <line x1="12" y1="86" x2="12" y2="86" stroke="#5eead4" stroke-width="4">
+    <animate attributeName="x2" from="12" to="330" dur="0.7s" begin="0.9s" fill="freeze"/>
+  </line>
 
-    <g clip-path="url(#a3)"><text x="24" y="130" fill="#888888">$ cat stack.json</text></g>
-    <clipPath id="a3"><rect x="0" y="112" height="22" width="0"><animate attributeName="width" from="0" to="157" dur="0.3s" begin="1.9s" fill="freeze"/></rect></clipPath>
-
-    <g clip-path="url(#a4)"><text x="24" y="160" fill="#ffffff">&gt; WordPress · React · Next.js · Node.js</text></g>
-    <clipPath id="a4"><rect x="0" y="142" height="22" width="0"><animate attributeName="width" from="0" to="330" dur="0.6s" begin="2.4s" fill="freeze"/></rect></clipPath>
-
-    <rect x="358" y="147" width="9" height="16" fill="#ffffff" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.001;0.5;1" dur="1s" begin="3.0s" repeatCount="indefinite"/>
-    </rect>
-  </g>
+  <text x="12" y="125" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#8a8a8a" opacity="0">
+    not slides, not screenshots — live, in production.
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.7s" fill="freeze"/>
+  </text>
 </svg>
 </div>
 
 <br>
 
-I build for clients, not for a tutorial. WordPress and SEO paid the bills
-early on, and lately that's stretched into React, Next.js, and Node.js.
-I own things end to end — client conversations, dev handoffs, the code
-itself. No filler, no lorem ipsum.
+<div align="center">
+<svg width="700" height="90" viewBox="0 0 700 90" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="90" fill="#0a0a0a"/>
+  <foreignObject x="30" y="10" width="640" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="color:#c9c9c9; font-family:Helvetica, Arial, sans-serif; font-size:15px; line-height:1.5;">
+      I turn broken WordPress sites, thin SEO, and rough briefs into things
+      that actually work — and lately that same instinct has pulled me
+      toward React, Next.js, and Node.
+    </div>
+  </foreignObject>
+</svg>
+</div>
 
 <br>
 
 <div align="center">
-<svg width="700" height="230" viewBox="0 0 700 230" xmlns="http://www.w3.org/2000/svg">
-  <rect width="700" height="230" rx="10" fill="#0a0a0a" stroke="#262626" stroke-width="1.5"/>
-  <rect width="700" height="34" rx="10" fill="#111111"/>
-  <rect y="24" width="700" height="10" fill="#111111"/>
-  <circle cx="24" cy="17" r="5" fill="#3a3a3a"/>
-  <circle cx="42" cy="17" r="5" fill="#3a3a3a"/>
-  <circle cx="60" cy="17" r="5" fill="#3a3a3a"/>
-  <text x="350" y="21" font-family="monospace" font-size="12" fill="#666666" text-anchor="middle">stack.json</text>
-  <g font-family="monospace" font-size="14">
-    <text x="24" y="66" fill="#666666" opacity="0">{<animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.2s" fill="freeze"/></text>
-    <text x="40" y="92" opacity="0">
-      <tspan fill="#ffffff">"experience"</tspan><tspan fill="#666666">: </tspan><tspan fill="#aaaaaa">"learned most of it by breaking things in production"</tspan><tspan fill="#666666">,</tspan>
-      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.6s" fill="freeze"/>
-    </text>
-    <text x="40" y="118" opacity="0">
-      <tspan fill="#ffffff">"core"</tspan><tspan fill="#666666">: [</tspan><tspan fill="#aaaaaa">"wordpress", "seo", "javascript", "css"</tspan><tspan fill="#666666">],</tspan>
-      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.0s" fill="freeze"/>
-    </text>
-    <text x="40" y="144" opacity="0">
-      <tspan fill="#ffffff">"expanding_into"</tspan><tspan fill="#666666">: [</tspan><tspan fill="#aaaaaa">"react", "next.js", "node.js"</tspan><tspan fill="#666666">],</tspan>
-      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.4s" fill="freeze"/>
-    </text>
-    <text x="40" y="170" opacity="0">
-      <tspan fill="#ffffff">"approach"</tspan><tspan fill="#666666">: </tspan><tspan fill="#aaaaaa">"own it end to end"</tspan><tspan fill="#666666">,</tspan>
-      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.8s" fill="freeze"/>
-    </text>
-    <text x="40" y="196" opacity="0">
-      <tspan fill="#ffffff">"status"</tspan><tspan fill="#666666">: </tspan><tspan fill="#aaaaaa">"open to freelance work"</tspan>
-      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.2s" fill="freeze"/>
-    </text>
-    <text x="24" y="222" fill="#666666" opacity="0">}<animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.5s" fill="freeze"/></text>
+<svg width="700" height="130" viewBox="0 0 700 130" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="130" fill="#0a0a0a"/>
+  <g transform="translate(70,20)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.2s" fill="freeze"/>
+    <circle cx="30" cy="30" r="28" fill="none" stroke="#5eead4" stroke-width="2"/>
+    <path d="M20 30 h20 M30 20 v20" stroke="#5eead4" stroke-width="2" stroke-linecap="round"/>
+    <text x="30" y="82" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#aaaaaa" text-anchor="middle">diagnose</text>
+  </g>
+  <g transform="translate(320,20)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.6s" fill="freeze"/>
+    <circle cx="30" cy="30" r="28" fill="none" stroke="#5eead4" stroke-width="2"/>
+    <path d="M18 38 l12 -18 l12 18 z" fill="none" stroke="#5eead4" stroke-width="2" stroke-linejoin="round"/>
+    <text x="30" y="82" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#aaaaaa" text-anchor="middle">build</text>
+  </g>
+  <g transform="translate(570,20)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.0s" fill="freeze"/>
+    <circle cx="30" cy="30" r="28" fill="none" stroke="#5eead4" stroke-width="2"/>
+    <path d="M20 34 L40 34 M32 26 L40 34 L32 42" fill="none" stroke="#5eead4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="30" y="82" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#aaaaaa" text-anchor="middle">ship</text>
   </g>
 </svg>
 </div>
@@ -89,16 +63,39 @@ itself. No filler, no lorem ipsum.
 <br>
 
 <div align="center">
-
-<a href="https://www.linkedin.com/in/your-linkedin-username">
-<svg width="140" height="42" viewBox="0 0 140 42" xmlns="http://www.w3.org/2000/svg">
-  <rect width="140" height="42" rx="8" fill="#0a0a0a" stroke="#333333"/>
-  <text x="70" y="27" font-family="monospace" font-size="15" fill="#ffffff" text-anchor="middle">in / linkedin</text>
+<svg width="700" height="46" viewBox="0 0 700 46" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="46" fill="#0a0a0a"/>
+  <clipPath id="tickerClip"><rect x="0" y="0" width="700" height="46"/></clipPath>
+  <g clip-path="url(#tickerClip)">
+    <g font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#3a3a3a">
+      <text x="0" y="30">
+        WORDPRESS   ·   SEO   ·   JAVASCRIPT   ·   REACT   ·   NEXT.JS   ·   NODE.JS   ·
+        <animateTransform attributeName="transform" type="translate" from="0,0" to="-963,0" dur="16s" repeatCount="indefinite"/>
+      </text>
+      <text x="963" y="30">
+        WORDPRESS   ·   SEO   ·   JAVASCRIPT   ·   REACT   ·   NEXT.JS   ·   NODE.JS   ·
+        <animateTransform attributeName="transform" type="translate" from="0,0" to="-963,0" dur="16s" repeatCount="indefinite"/>
+      </text>
+    </g>
+  </g>
 </svg>
-</a>
-
 </div>
 
 <br>
 
-<div align="center"><sub>no highlight reel — just work, shipped.</sub></div>
+<div align="center">
+<svg width="220" height="60" viewBox="0 0 220 60" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="60" fill="#0a0a0a"/>
+  <a href="https://www.linkedin.com/in/your-linkedin-username">
+    <text x="15" y="34" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#f5f5f5">let's talk</text>
+    <path d="M100 27 h35" stroke="#5eead4" stroke-width="2">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 8,0; 0,0" dur="1.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M128 20 l10 7 l-10 7" fill="none" stroke="#5eead4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 8,0; 0,0" dur="1.4s" repeatCount="indefinite"/>
+    </path>
+  </a>
+</svg>
+</div>
+
+<br>
